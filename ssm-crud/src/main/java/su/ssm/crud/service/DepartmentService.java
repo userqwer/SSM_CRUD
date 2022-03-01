@@ -18,7 +18,7 @@ public class DepartmentService {
     private DepartmentMapper departmentMapper;
 
 
-    //获取部门的信息
+    //获取的部门的信息
     public List<Department> getDepts() {
         //按照条件查询
         List<Department> departments = departmentMapper.selectByExample(null);
